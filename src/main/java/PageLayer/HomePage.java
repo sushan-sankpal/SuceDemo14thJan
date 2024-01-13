@@ -33,7 +33,7 @@ public class HomePage extends BaseClass {
 	
 	public void addToCart()
 	{
-		System.out.println("Akshay the git Manager");
+		System.out.println("Akshay the git pull Manager");
 		UtlityMethods.click(prod1);
 		UtlityMethods.click(cart);
 		

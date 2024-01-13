@@ -24,7 +24,8 @@ public class LoginPage extends BaseClass {
 	
 	public void loginPage(String uname, String pwd)
 	{
-	
+		System.out.println("Sushant the Lead Trainer");
+		System.out.println("Dushyant The Lead");
 		UtlityMethods.sendKeys(username, uname);
 		UtlityMethods.sendKeys(password, pwd);
 		UtlityMethods.click(LoginButton);
